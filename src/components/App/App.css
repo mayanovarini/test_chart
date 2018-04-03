@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis:200|Work+Sans:200');
+
+.App {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.App-header {
+  display: flex;
+  height: 75px;
+  width: 100%;
+  border-bottom: 1px solid #f3f0f0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.App-logo {
+  max-width: 125px;
+  margin-left: 30px;
+  height: 30px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+.Button-account {
+  font-family: 'Work Sans', sans-serif;
+  background-color: white;
+  font-size: 15px;
+  border-radius: 5px;
+  width: 120px;
+  height: 40px;
+  margin-right: 50px;
+  color: #333131;
+}
+
+
+.Button-account:hover {
+  background-color: #3562BD;
+  color: white;
+}
+
+.Test-content {
+  display: flex;
+}
+
+.Test-content .Test-case-list {
+  height: 960px;
+  flex-basis: 30%;
+  border-right: 1px solid #f3f0f0;
+}
+
+.Test-content .Test-step-card {
+  flex-grow: 1;
+}

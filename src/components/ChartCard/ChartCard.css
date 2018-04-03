@@ -1,0 +1,14 @@
+.ChartCard {
+  font-size: 15px;
+  color: black;
+  position: fixed;
+  width: 55%;
+  height: 240px;
+  left: 66%;
+  top: 78%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 2em;
+  border: 1px solid #f3f0f0;
+  box-shadow: 0 15px 5px #f3f0f0;
+}

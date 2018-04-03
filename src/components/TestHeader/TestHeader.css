@@ -1,0 +1,93 @@
+.Test-header {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  border-bottom: 1px solid #f3f0f0;
+  flex-direction: column;
+  background-color: #F2F4F8;
+  padding-top: 20px;
+}
+
+.Header-top {
+  display: flex;
+  align-items: center;
+}
+.Arrow {
+  max-width: 125px;
+  margin-left: 30px;
+  height: 30px;
+  display: inline-block;
+  vertical-align: middle;
+  opacity: .3;
+}
+
+.Run-id {
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.Time {
+  margin-left: 65px;
+  font-size: 13px;
+}
+
+.Total-test {
+  margin-top: 35px;
+  margin-left: 60px;
+}
+
+.Total-test span {
+  border-radius: 50%;
+  background-color: #3562BD;
+  padding: 4px 10px;
+  margin-right: 5px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.Count-passed {
+  display: flex;
+  color: green;
+  font-weight: bold;
+  align-items: center;
+  border-radius: 20px;
+  background-color: white;
+  width: 40px;
+  height: 30px;
+  justify-content: center;
+  margin-top: 15px;
+  margin-left: 15px;
+  -moz-box-shadow:    inset 0 0 5px #dad3d3;
+  -webkit-box-shadow: inset 0 0 5px #dad3d3;
+  box-shadow:         inset 0 0 5px #dad3d3;
+}
+
+.Count-passed img {
+  font-size: 15px;
+  height: 15px;
+  padding-right: 3px;
+}
+
+.Count-failed {
+  display: flex;
+  color: red;
+  font-weight: bold;
+  align-items: center;
+  border-radius: 20px;
+  background-color: white;
+  width: 40px;
+  height: 30px;
+  justify-content: center;
+  margin-top: 15px;
+  margin-left: 15px;
+  -moz-box-shadow:    inset 0 0 5px #dad3d3;
+  -webkit-box-shadow: inset 0 0 5px #dad3d3;
+  box-shadow:         inset 0 0 5px #dad3d3;
+}
+
+.Count-failed img {
+  font-size: 15px;
+  height: 15px;
+  padding-right: 3px;
+}

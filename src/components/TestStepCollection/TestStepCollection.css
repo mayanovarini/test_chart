@@ -1,0 +1,34 @@
+.Collection {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+}
+
+.StepList {
+  cursor: pointer;
+  list-style-type: none;
+  padding: 15px;
+  text-align: center;
+  background-color: #899bc1;
+  color: white;
+  font-weight: bold;
+}
+
+.StepList:hover {
+  background-color: #3562BD;
+  color: white;
+  border: 1px solid #3562BD;
+}
+
+.Collection .image-container img {
+  height: 400px;
+  cursor: pointer;
+}
+
+.Collection .image-name {
+  padding: 30px;
+  border: 1px solid black;
+  margin: 10px;
+  border: 1px solid #f3f0f0;
+  box-shadow: 0 15px 10px #f3f0f0;
+}
