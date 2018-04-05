@@ -1,3 +1,15 @@
-.ChartPopup {
+.ChartPopUp {
   font-size: 13px;
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+}
+
+.ChartPopUp h1 {
+  font-size: 15px;
+  color: black;
+}
+
+.Header {
+  border: 1px solid black;
 }

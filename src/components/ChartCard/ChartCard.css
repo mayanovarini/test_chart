@@ -1,14 +1,60 @@
+.ChartCard-container {
+  background-color: #F2F4F8;
+  padding: 3em;
+  position: relative;
+}
+
 .ChartCard {
   font-size: 15px;
-  color: black;
-  position: fixed;
-  width: 55%;
-  height: 240px;
-  left: 66%;
-  top: 78%;
-  transform: translate(-50%, -50%);
-  background: white;
-  padding: 2em;
+  color: white;
+  height: 280px;
   border: 1px solid #f3f0f0;
   box-shadow: 0 15px 5px #f3f0f0;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  background: linear-gradient(-45deg, #3562BD, #7398e2, #d8d7e0, #f2ff87);
+  background-size: 400% 400%;
+  animation: bg 20s infinite;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+  padding: 5px;
+}
+
+.axis {
+  color: #fff;
+  z-index: 1;
+  text-transform: uppercase;
+  display: flex;
+  position: absolute;
+  bottom: 90px;
+  left: 80px;
+  right: 50px;
+}
+
+.axis .tick {
+  flex: 1;
+  position: relative;
+  font-size: 14px;
+  text-align: center;
+  padding: 10px;
+  line-height: 10px;
+  margin-bottom: 5em;
+}
+
+.test-unit {
+  display: block;
+}
+
+
+@keyframes bg
+{
+  0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
 }
