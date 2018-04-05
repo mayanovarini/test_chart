@@ -1,7 +1,16 @@
 .Test-case {
   padding: 20px;
+  border-bottom: 1px solid #f3f0f0;
 }
 
 .Test-case:hover {
   background-color: #E6EDFA;
+}
+
+.Check, .Cross {
+  font-size: 15px;
+  height: 12px;
+  padding-right: 10px;
+
+
 }

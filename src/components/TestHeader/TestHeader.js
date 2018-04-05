@@ -33,7 +33,7 @@ class TestHeader extends Component {
             <p>{this.state.totalPassed}</p>
           </div>
           <div className="Count-failed">
-            <img src={cross} className="cross"/>
+            <img src={cross} className="Cross"/>
             <p>{this.state.totalFailed}</p>
           </div>
         </div>

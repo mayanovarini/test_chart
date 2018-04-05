@@ -2,6 +2,7 @@
 
 .App {
   font-family: 'Work Sans', sans-serif;
+  font-weight: normal;
 }
 
 .App-header {
@@ -44,7 +45,7 @@
 }
 
 .Test-content .Test-case-list {
-  height: 960px;
+  height: 1080px;
   flex-basis: 30%;
   border-right: 1px solid #f3f0f0;
 }
