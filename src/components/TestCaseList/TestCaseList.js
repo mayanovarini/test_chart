@@ -3,8 +3,6 @@ import './TestCaseList.css';
 import TestCase from '../TestCase/TestCase';
 
 class TestCaseList extends Component {
-
-
   render() {
     return (
       <div className="Test-case-list">
