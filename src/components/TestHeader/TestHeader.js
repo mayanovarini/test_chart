@@ -3,6 +3,8 @@ import './TestHeader.css';
 import leftArrow from './leftArrow.svg';
 import check from './check.svg';
 import cross from './cross.svg';
+import Moment from 'react-moment';
+
 
 class TestHeader extends Component {
   constructor(props){
@@ -35,7 +37,8 @@ class TestHeader extends Component {
             <p>{this.state.totalFailed}</p>
           </div>
         </div>
-        <p className="Time">{this.props.time}</p>
+
+        <Moment className="Time">{this.props.time}</Moment>
       </div>
     );
   }

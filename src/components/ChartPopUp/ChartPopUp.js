@@ -9,12 +9,15 @@ class ChartPopUp extends Component {
       return ''
     }
     return (
-      <div className="ChartPopUp">
-        <h1 className="Header">{this.props.name}</h1>
-        { this.props.times.map((v, i) => [v, this.props.memory[i], this.props.cpu[i]]).map(data => {
-          return <ChartCard runData={data} />
-        }) }
+      <div className="Popup-container">
+        <h1 className="Header">Performance Data of <span>{this.props.name}</span></h1>
+        <div className="ChartPopUp">
+          { this.props.times.map((v, i) => [v, this.props.memory[i], this.props.cpu[i]]).map(data => {
+            return <ChartCard runData={data} />
+          }) }
+        </div>
       </div>
+
     )
 
   }

@@ -45,7 +45,6 @@ class ChartCard extends Component {
             options={{
               title: {
                 display: true,
-                text: 'Performance Data',
                 fontSize: 15
               },
               legend: {

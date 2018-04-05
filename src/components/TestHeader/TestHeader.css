@@ -28,7 +28,9 @@
 
 .Time {
   margin-left: 65px;
-  font-size: 13px;
+  font-size: 12px;
+  margin-bottom: 15px;
+  padding-top: 10px;
 }
 
 .Total-test {
@@ -88,6 +90,6 @@
 
 .Count-failed img {
   font-size: 15px;
-  height: 15px;
+  height: 12px;
   padding-right: 3px;
 }
