@@ -48,7 +48,7 @@
   font-weight: bold;
 }
 
-.Count-passed {
+.Count-passed, .Count-failed {
   display: flex;
   color: green;
   font-weight: bold;
@@ -58,7 +58,7 @@
   width: 40px;
   height: 30px;
   justify-content: center;
-  margin-top: 15px;
+  margin-top: 20px;
   margin-left: 15px;
   -moz-box-shadow:    inset 0 0 5px #dad3d3;
   -webkit-box-shadow: inset 0 0 5px #dad3d3;
@@ -72,20 +72,7 @@
 }
 
 .Count-failed {
-  display: flex;
   color: red;
-  font-weight: bold;
-  align-items: center;
-  border-radius: 20px;
-  background-color: white;
-  width: 40px;
-  height: 30px;
-  justify-content: center;
-  margin-top: 15px;
-  margin-left: 15px;
-  -moz-box-shadow:    inset 0 0 5px #dad3d3;
-  -webkit-box-shadow: inset 0 0 5px #dad3d3;
-  box-shadow:         inset 0 0 5px #dad3d3;
 }
 
 .Count-failed img {
